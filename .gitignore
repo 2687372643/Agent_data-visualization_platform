@@ -1,0 +1,44 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+*.so
+
+# --- Node / Frontend ---
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Runtime Data ---
+backend/data/uploads/
+backend/data/charts/
+backend/data/exports/
+backend/data/temp/
+
+# --- Environment ---
+.env
+.env.local
+*.env.local
+
+# --- Logs ---
+*.log
+backend/data/logs/
+
+# --- Claude ---
+.claude/
